@@ -1,4 +1,4 @@
-# page-store
+# pages-store
 
 ## Project setup
 ```

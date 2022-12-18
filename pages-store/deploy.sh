@@ -13,7 +13,10 @@ git init
 git add -A
 git commit -m 'deploy'
 
+userName='shiro641'
+projectName='storePages'
+
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:shiro641/storePages.git main:gh-pages
+git push -f git@github.com/${userName}/${projectName} main:gh-pages
 
 cd -

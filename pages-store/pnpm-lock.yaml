@@ -5,6 +5,8 @@ specifiers:
   '@babel/eslint-parser': ^7.12.16
   '@vue/cli-plugin-babel': ~5.0.0
   '@vue/cli-plugin-eslint': ~5.0.0
+  '@vue/cli-plugin-router': ~5.0.0
+  '@vue/cli-plugin-vuex': ~5.0.0
   '@vue/cli-service': ~5.0.0
   core-js: ^3.8.3
   eslint: ^7.32.0
@@ -13,17 +15,23 @@ specifiers:
   eslint-plugin-vue: ^8.0.3
   prettier: ^2.4.1
   vue: ^2.6.14
+  vue-router: ^3.5.1
   vue-template-compiler: ^2.6.14
+  vuex: ^3.6.2
 
 dependencies:
   core-js: 3.26.1
   vue: 2.7.14
+  vue-router: 3.6.5
+  vuex: 3.6.2_vue@2.7.14
 
 devDependencies:
   '@babel/core': 7.20.5
   '@babel/eslint-parser': 7.19.1_@babel+core@7.20.5+eslint@7.32.0
   '@vue/cli-plugin-babel': 5.0.8_49a681e9539933bd2d87d2be82aac225
   '@vue/cli-plugin-eslint': 5.0.8_c55aa92e1e5ff62fc892a7c9d3e68cd0
+  '@vue/cli-plugin-router': 5.0.8_@vue+cli-service@5.0.8
+  '@vue/cli-plugin-vuex': 5.0.8_@vue+cli-service@5.0.8
   '@vue/cli-service': 5.0.8_056b3629cd6da9e972de91fc578335c2
   eslint: 7.32.0
   eslint-config-prettier: 8.5.0_eslint@7.32.0
@@ -6529,6 +6537,10 @@ packages:
       webpack: 5.75.0
     dev: true
 
+  /vue-router/3.6.5:
+    resolution: {integrity: sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==}
+    dev: false
+
   /vue-style-loader/4.1.3:
     resolution: {integrity: sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg==}
     dependencies:
@@ -6552,6 +6564,14 @@ packages:
     dependencies:
       '@vue/compiler-sfc': 2.7.14
       csstype: 3.1.1
+
+  /vuex/3.6.2_vue@2.7.14:
+    resolution: {integrity: sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==}
+    peerDependencies:
+      vue: ^2.0.0
+    dependencies:
+      vue: 2.7.14
+    dev: false
 
   /watchpack/2.4.0:
     resolution: {integrity: sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==}
