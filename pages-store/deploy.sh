@@ -4,7 +4,7 @@
 set -e
 
 # 构建
-npm run build
+# npm run build
 
 # cd 到构建输出的目录下 
 cd dist
@@ -17,6 +17,7 @@ userName='shiro641'
 projectName='storePages'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com/${userName}/${projectName} main:my-pages
+git push -f git@github.com/shiro641/storePages.git main:gh-pages
+# git push -f git@github.com/shiro641/storePages.git main:my-pages
 
 cd -
