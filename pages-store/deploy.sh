@@ -17,6 +17,6 @@ userName='shiro641'
 projectName='storePages'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com/${userName}/${projectName} main:gh-pages
+git push -f git@github.com/${userName}/${projectName} main:my-pages
 
 cd -
